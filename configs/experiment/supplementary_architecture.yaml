@@ -1,0 +1,4 @@
+name: supplementary_architecture
+model:
+  width: 256
+  depth: 4

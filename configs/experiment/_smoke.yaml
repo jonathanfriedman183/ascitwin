@@ -1,0 +1,20 @@
+name: _smoke
+model:
+  width: 16
+  depth: 3
+  dropout: 0.0
+domain:
+  n_interior: 128
+  n_boundary: 32
+  n_initial: 32
+data:
+  cohort: TCGA-COAD/READ
+  n_patients: 12
+  resolution: 8
+  n_folds: 2
+  seed: 0
+train:
+  epochs: 2
+  lr: 0.01
+  n_seeds: 1
+  grad_balance: true

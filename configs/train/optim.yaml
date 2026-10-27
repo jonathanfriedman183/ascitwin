@@ -1,0 +1,11 @@
+epochs: 8000
+lr: 0.001
+weight_decay: 0.0
+n_seeds: 20
+dose_rate: 1.0
+w_data: 1.0
+w_pde: 1.0
+w_ic: 1.0
+w_bc: 1.0
+grad_balance: true
+spatial_recovery: true

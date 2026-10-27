@@ -1,0 +1,4 @@
+width: 512
+depth: 4
+dropout: 0.2
+activation: tanh

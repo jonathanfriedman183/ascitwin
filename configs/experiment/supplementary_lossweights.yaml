@@ -1,0 +1,7 @@
+name: supplementary_lossweights
+train:
+  grad_balance: false
+  w_data: 1.0
+  w_pde: 1.0
+  w_ic: 1.0
+  w_bc: 1.0

@@ -1,0 +1,3 @@
+name: ablation_drug
+train:
+  disabled_equations: [drug]

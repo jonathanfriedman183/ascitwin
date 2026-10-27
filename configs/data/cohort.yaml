@@ -1,0 +1,5 @@
+cohort: TCGA-COAD/READ
+n_patients: 623
+resolution: 50
+n_folds: 5
+seed: 0

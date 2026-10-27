@@ -1,0 +1,3 @@
+name: ablation_no_spatial
+train:
+  disabled_equations: [no_spatial]

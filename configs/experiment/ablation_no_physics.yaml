@@ -1,0 +1,3 @@
+name: ablation_no_physics
+train:
+  disabled_equations: [no_physics]

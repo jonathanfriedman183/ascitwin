@@ -1,0 +1,14 @@
+name: ascitwin
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch>=2.2
+  - numpy>=1.26
+  - scipy>=1.11
+  - pip:
+      - omegaconf>=2.3
+      - plac>=1.4
+      - onnx>=1.15

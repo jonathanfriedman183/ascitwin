@@ -1,0 +1,26 @@
+name: main
+model:
+  width: 512
+  depth: 4
+  dropout: 0.2
+  activation: tanh
+domain:
+  extent: 1.0
+  t_final: 1.0
+  n_interior: 10000
+  n_boundary: 1000
+  n_initial: 1000
+data:
+  cohort: TCGA-COAD/READ
+  n_patients: 623
+  resolution: 50
+  n_folds: 5
+  seed: 0
+train:
+  epochs: 8000
+  lr: 0.001
+  weight_decay: 0.0
+  n_seeds: 20
+  dose_rate: 1.0
+  grad_balance: true
+  spatial_recovery: true

@@ -1,0 +1,3 @@
+name: ablation_cytokine
+train:
+  disabled_equations: [cytokine]
